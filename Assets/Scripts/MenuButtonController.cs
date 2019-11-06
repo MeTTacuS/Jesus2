@@ -8,6 +8,7 @@ public class MenuButtonController : MonoBehaviour
     public void SinglePlayerButtonOnClick(GameObject menuPanel)
     {
         menuPanel.SetActive(false);
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void OptionsButtonOnClick(GameObject[] panels)
